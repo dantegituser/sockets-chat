@@ -13,8 +13,8 @@ Allows the user to send his location using the navigator geolocation object.
 Uses **express** to create and run a basic server.   
 **Socket.io** to handle the socket events.   
 **bad-words** to filter the messages the user send.   
-**Mustache** library in the front en to create the html templates.   
-**momnet** javscript library to manage dates and times.   
+**Mustache** library in the front end to create the html templates.   
+**moment** javascript library to manage dates and times.   
 Also uses **qs** library to parse query params from the url.   
 
 ### Screenshots
@@ -22,8 +22,9 @@ Also uses **qs** library to parse query params from the url.
 #### Login page / select username and room
 ![](https://dessinstudio.com/portfolio-imgs/05_01.png)
 
-#### Room chat / user window
+#### Room chat / user window   
 ![](https://dessinstudio.com/portfolio-imgs/05_02.png)
+#### Real time chat   
 ![](https://dessinstudio.com/portfolio-imgs/05_03.png)
 
 
@@ -32,4 +33,4 @@ Also uses **qs** library to parse query params from the url.
 Download the code, and run `npm install`  
 Open the command line console in the app root folder.    
 to launch it run `npm run dev`   
-The app is setup to run in port 3000 so you can open multiple windows and start chatting.
+The app is setup to run in localhost port 3000 so you can open multiple windows and start chatting.
